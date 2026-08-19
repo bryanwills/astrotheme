@@ -1,0 +1,46 @@
+{
+  "name": "astrotheme",
+  "displayName": "AstroTheme",
+  "description": "AstroNvim AstroTheme palettes for VS Code and Cursor (AstroDark, AstroLight, AstroMars, AstroJupiter).",
+  "version": "0.1.0",
+  "publisher": "astrotheme",
+  "icon": "icon.png",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "astrotheme",
+    "astronvim",
+    "dark",
+    "light"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AstroDark",
+        "uiTheme": "vs-dark",
+        "path": "./astrodark.json"
+      },
+      {
+        "label": "AstroLight",
+        "uiTheme": "vs",
+        "path": "./astrolight.json"
+      },
+      {
+        "label": "AstroMars",
+        "uiTheme": "vs-dark",
+        "path": "./astromars.json"
+      },
+      {
+        "label": "AstroJupiter",
+        "uiTheme": "vs",
+        "path": "./astrojupiter.json"
+      }
+    ]
+  }
+}
